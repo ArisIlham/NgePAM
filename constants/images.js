@@ -17,8 +17,7 @@ const stempel = require("../assets/images/stempel.jpg");
 const stempel1 = require("../assets/images/stempel1.jpg");
 const stiker = require("../assets/images/stiker.jpg");
 const Yasin = require("../assets/images/Yasin.jpg");
-const bg = require("../assets/bg.jpg");
-
+const bg = require("../assets/images/Splash.png");
 
 export default {
   bg,

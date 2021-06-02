@@ -340,7 +340,7 @@ const Percetakan = ({ route, navigation }) => {
                 borderRadius: SIZES.radius,
               }}
               onPress={() =>
-                navigation.navigate("OrderDelivery", {
+                navigation.navigate("", {
                   Percetakan: Percetakan,
                   currentLocation: currentLocation,
                 })

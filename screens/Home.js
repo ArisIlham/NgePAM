@@ -8,6 +8,7 @@ import {
   Image,
   FlatList,
 } from "react-native";
+import { Profile } from ".";
 
 import { icons, images, SIZES, COLORS, FONTS } from "../constants";
 
@@ -64,7 +65,7 @@ const Home = ({ navigation }) => {
           menuId: 2,
           name: "Stiker",
           photo: images.stiker,
-          description: "Gunakan stiker untuk memberi tand brand anda",
+          description: "Gunakan stiker untuk memberi tanda brand anda",
           price: 10000,
         },
       ],
@@ -102,7 +103,7 @@ const Home = ({ navigation }) => {
           menuId: 5,
           name: "Kaos",
           photo: images.kaos,
-          description: "Fresh tomatoes, all beef hot dogs",
+          description: "",
           calories: 100,
           price: 20,
         },
@@ -116,7 +117,7 @@ const Home = ({ navigation }) => {
       menu: [
         {
           menuId: 6,
-          name: "Sushi sets",
+          name: "Nyablon Gan",
           photo: images.sablon,
           description: "",
           price: 10000,
@@ -127,7 +128,7 @@ const Home = ({ navigation }) => {
 
   const [categories, setCategories] = React.useState(categoryData);
   const [selectedCategory, setSelectedCategory] = React.useState(null);
-  const [Percetakans, setPercetakans] = React.useState(PercetakanData);
+  const [Percetakans, setPercetakan] = React.useState(PercetakanData);
   const [currentLocation, setCurrentLocation] = React.useState(
     initialCurrentLocation
   );
@@ -202,6 +203,7 @@ const Home = ({ navigation }) => {
               width: 30,
               height: 30,
             }}
+            onPress={Profile}
           />
         </TouchableOpacity>
       </View>

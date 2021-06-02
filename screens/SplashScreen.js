@@ -5,7 +5,7 @@ import { icons, images, SIZES, COLORS, FONTS } from "../constants";
 const SplashScreen = ({ navigation }) => {
   useEffect(() => {
     setTimeout(() => {
-      navigation.replace("Login");
+      navigation.replace("Home");
     }, 4000);
   }, [navigation]);
 
@@ -16,12 +16,12 @@ const SplashScreen = ({ navigation }) => {
           flex: 1,
           alignItems: "flex-end",
           justifyContent: "flex-end",
-          marginBottom: 40,
+          marginBottom: 60,
         }}
       >
-        <Text style={{ color: COLORS.primary, fontSize: 15 }}>
+        <Text style={{ color: COLORS.secondary, fontSize: 15 }}>
           Copyright &copy; 2021 Powered by{" "}
-          <Text style={{ fontWeight: "bold", fontSize: 16 }}>FAMI.ly</Text>
+          <Text style={{ fontWeight: "bold", fontSize: 16 }}>Warna Devs</Text>
         </Text>
       </View>
     </ImageBackground>

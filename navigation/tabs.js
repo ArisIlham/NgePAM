@@ -124,7 +124,7 @@ const Tabs = () => {
 
       <Tab.Screen
         name="User"
-        component={SplashScreen}
+        component={Home}
         options={{
           tabBarIcon: ({ focused }) => (
             <Image

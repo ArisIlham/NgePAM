@@ -10,6 +10,7 @@ export const Offset = require("../assets/icons/Offsethdpi.png");
 export const Clothes = require("../assets/icons/Clotheshdpi.png");
 export const DigitalPrinting = require("../assets/icons/DigitalPrintinghdpi.png");
 export const Shop = require("../assets/icons/Shophdpi.png");
+export const Logo = require("../assets/icons/Logo.png")
 
 export default {
   back,
@@ -23,4 +24,5 @@ export default {
   Offset,
   Clothes,
   DigitalPrinting,
+  Logo,
 };
